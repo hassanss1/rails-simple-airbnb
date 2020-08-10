@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 44ea9ad74bd8b52552c7c11c28fc1b12c5c31cfd hassanssaade <hassanssaade@gmail.com> 1596577041 -0300	commit (initial): rails new
+44ea9ad74bd8b52552c7c11c28fc1b12c5c31cfd 04e4d1d466062a6fdf1e3c0352a1457f7cdd4791 hassanssaade <hassanssaade@gmail.com> 1596834172 -0300	commit: Adding rails & routes resources
+04e4d1d466062a6fdf1e3c0352a1457f7cdd4791 f8d2949385611b91d121fe101a6785fdd95b2e00 hassanssaade <hassanssaade@gmail.com> 1596834807 -0300	commit: Added 4 flats through seeds
