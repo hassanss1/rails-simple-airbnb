@@ -1,16 +1,19 @@
-<h1>Simple Airbnb</h1>
 
+<h1>All our flats (<%= @flats.count %>)</h1>
 <div class="container">
   <div class="row">
 
-    <div class="col-sm-4">
       <% @flats.each do |flat|%>
-      <%= flat.name %>
-      <%= flat.address %>
-      <%= flat.price_per_night %>
-      <%= flat.number_of_guests %>
-    </div>
+        <div class="col-sm-4">
+          <h2><%= flat.name %></h2>
+          <%= flat.address %>
+          <div class="row ml-0">
+            <%= flat.price_per_night %>
+            <i class="fas fa-user-friends"></i> <%= flat.number_of_guests %>
+          </div>
+          <%= link_to 'More Info' %>
+        </div>
+      <% end %>
   </div>
 </div>
 
-<% end %>
