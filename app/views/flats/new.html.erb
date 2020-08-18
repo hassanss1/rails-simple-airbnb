@@ -1,0 +1,10 @@
+<div class="container">
+  <h2>Add a new flat</h2>
+
+  <%= simple_form_for @flat do |f|  %>
+    <%= f.input :name , label: 'Enter the flat name please', error: 'Name is mandatory, please specify one'%>
+    <%= f.input :address, placeholder: 'Where is your flat at?', as: :text%>
+    <%= f.input :description, placeholder: 'Enter description here' %>
+    <%= f.button :submit %>
+  <% end %>
+</div>
