@@ -1,0 +1,9 @@
+  <%= simple_form_for @flat do |f|  %>
+    <%= f.input :name , label: 'Enter the flat name', error: 'Name is mandatory, please specify one'%>
+    <%= f.input :address, placeholder: 'Where is your flat at?'%>
+    <%= f.text_field :picture_url, class: 'form-control' %>
+    <%= f.input :description, placeholder: 'Enter description here' %>
+    <%= f.input :number_of_guests %>
+    <%= f.input :price_per_night %>
+    <%= f.button :submit %>
+  <% end %>

@@ -5,6 +5,8 @@
       <div class="flat-show-card">
         <h2><%= @flat.name %></h2>
         <p class="flat-show-address"><%= @flat.address %></p>
+        <%= link_to 'Edit', edit_flat_path(@flat) %>
+        <%= link_to 'Delete flat', flat_path(@flat) %>
       </div>
       <div class="flat-show-card">
         <h3>A bit more about this flat</h3>
